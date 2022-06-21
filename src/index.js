@@ -92,6 +92,7 @@ async function mintNFT() {
       abi,
       "0xfbe1af2c0115ec14e1465d3429ccf30609f3a5b4"
     );
+    
   
     web3.eth.requestAccounts().then((accounts) => {
       contract.methods
